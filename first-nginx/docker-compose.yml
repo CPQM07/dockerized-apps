@@ -3,5 +3,5 @@ services:
   nginx:
     image: nginx # we can use 'image' (use a remote image) or 'build' use a dockerfile
     ports:
-      - "80:80"
+      - 80:80
 # this compose going to to create a default network (bridge) with the name "first-nginx_default"
